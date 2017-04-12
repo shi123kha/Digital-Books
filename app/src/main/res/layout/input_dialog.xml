@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+      android:padding="10dp"
+android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:weightSum="5"
+        android:layout_height="wrap_content">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_title"
+        android:layout_weight="1"
+        android:hint="Title"
+       />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_description"
+        android:layout_weight="1"
+        android:hint="Description"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/et_url"
+        android:hint="Image Url"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:text="Save Data"
+        android:id="@+id/save"
+        android:layout_weight="2"
+        android:textColor="#ffffff"
+        android:background="#0000ff"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
